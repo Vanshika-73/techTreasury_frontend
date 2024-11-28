@@ -23,7 +23,6 @@ function Payment({ handleChange, values }) {
           value={values?.payment_type}
         >
           <MenuItem value="card">Card</MenuItem>
-          <MenuItem value="upi">UPI</MenuItem>
           <MenuItem value="cod">COD</MenuItem>
         </Select>
       </Box>
